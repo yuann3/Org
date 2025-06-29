@@ -1,0 +1,13 @@
+#+title: QA Interview
+
+* AGILE, REALLY???
+
++ I came across Titansoft’s core focus on agile and collaboration. How do you plan sprints? and how developers typically work with Business Analysts or Product Owners when questions or blocks come up
+
+* TEAM & CULTURE
+
++ I noticed you emphasize ‘Emergent Leadership’ and ‘Continuous Learning’ — can you give an example of how those play out in a new developer’s first 90 days?
+
+* CHALLENGE & STACK (OPTIONAL)
+
++ I read that Titansoft works a lot with .NET and C#. What are some of the biggest engineering challenges your team is tackling right now?

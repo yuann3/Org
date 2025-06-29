@@ -1,0 +1,71 @@
+#+TITLE: convolution
+
+* But what is a convolution?
+
+** Introduction
+- Convolution is a fundamental operation for combining two lists or functions to produce a new one.
+- Common operations: term-by-term addition, multiplication, and convolution (less discussed, but very important).
+- Convolutions are used in image processing, probability theory, differential equations, and polynomial multiplication.
+
+** Motivation and Intuition
+- Adding or multiplying lists/functions is straightforward: \( (a_i + b_i) \) or \( (a_i \times b_i) \).
+- Convolution is a new way to combine lists, not just inherited from number operations.
+- Example: Rolling two dice and finding the probability of each possible sum.
+
+** Probability Example: Dice Sums
+- Each die has 6 outcomes, so 36 possible pairs.
+- Sums are visualized along diagonals in a grid of outcomes.
+- For non-uniform dice (different probabilities for each face), the probability of a sum is:
+  - For sum \( n \): \( \sum_{i+j=n} a_i b_j \)
+  - Multiply the probability of each pair and sum for all pairs that add to \( n \).
+- This process is convolution: flip one list, slide it, multiply, and sum.
+
+** Formal Definition (Discrete Case)
+- Given two sequences \( a \) and \( b \), their convolution \( c \) is:
+  - \( c_n = \sum_{i+j=n} a_i b_j \)
+- Visually: flip the second list, slide it across the first, multiply aligned terms, sum for each position.
+- Example: \( [1,2,3] * [4,5,6] \) yields \( [4, 13, 28, 27, 18] \).
+
+** Applications
+*** Probability Distributions
+- Convolution combines two probability distributions (e.g., dice) to get the distribution of their sum.
+
+*** Moving Average
+- Smoothing data: convolve a list with a small list (kernel) whose entries sum to 1.
+- Each output is a weighted average of a window of data.
+- Example: 5-point moving average kernel \( [\frac{1}{5}, \frac{1}{5}, \frac{1}{5}, \frac{1}{5}, \frac{1}{5}] \).
+
+*** Image Processing
+- 2D convolution: slide a small grid (kernel) over an image, multiply and sum to get new pixel values.
+- Blurring: kernel with equal weights (e.g., \( 3 \times 3 \) grid of \( \frac{1}{9} \)).
+- Gaussian blur: kernel values sampled from a bell curve (center has higher weight).
+- Edge detection: kernel with positive values on one side, negative on the other; highlights changes in pixel values.
+- The kernel is also called a "filter" or "mask".
+
+** Output Size and Truncation
+- Mathematical convolution output is longer than the inputs.
+- In practice (e.g., image processing), output is often truncated to match input size.
+
+** Mathematical vs. Programming Conventions
+- Pure math: always flip the kernel before sliding.
+- In programming, sometimes the kernel is not flipped (correlation), but true convolution requires flipping.
+
+** Polynomial Multiplication
+- Multiplying polynomials is equivalent to convolving their coefficient lists.
+- Each coefficient in the product is the sum of products of coefficients whose degrees add up to the same value.
+- Example: \( (1 + 2x + 3x^2) \times (4 + 5x + 6x^2) \) coefficients are the convolution of \( [1,2,3] \) and \( [4,5,6] \).
+
+** Fast Convolution: FFT Algorithm
+- Naive convolution is \( O(n^2) \).
+- Fast Fourier Transform (FFT) allows convolution in \( O(n \log n) \) time.
+- Steps:
+  1. Compute FFT of both lists (treat as polynomial coefficients).
+  2. Multiply the FFTs pointwise.
+  3. Compute the inverse FFT to get the convolution result.
+- This is much faster for large lists.
+
+** Key
+- Convolution is a general way to combine two sequences or functions.
+- It appears in probability, signal/image processing, polynomial algebra, and more.
+- Fast algorithms (FFT) make convolution practical for large data.
+- Multiplying large integers can also be sped up using convolution and FFT.

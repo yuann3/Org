@@ -1,0 +1,68 @@
+#+title: YY's Agenda
+
+* Personal Event
+
+** DONE [#A] Booking restaurant at Raffles Place [2/2] :personal:
+SCHEDULED: <2025-06-12 Thu>
++ [X] Restaurant at Telok Ayer St
++ [X] "Boeuf" restaurant
+
+** DONE [#A] Booking Airbnb at JB
+DEADLINE: <2025-06-14 Sat>
+- [[
+https://www.airbnb.com.sg/rooms/935793566991873802?check_in=2025-06-16&check_out=2025-06-19&search_mode=regular_search&amenities%5B%5D=51&source_impression_id=p3_1749656803_P3CUULgHxFRBKukh&previous_page_section_name=1000&federated_search_id=e4c3f96f-1a3a-427b-b9d7-63a06b6007f4][Option 1]]
+- [[https://www.airbnb.com.sg/rooms/921291264993170505?check_in=2025-06-16&check_out=2025-06-19&search_mode=regular_search&amenities%5B%5D=51&source_impression_id=p3_1749656894_P37p3l2vEHhjSAv7&previous_page_section_name=1000&federated_search_id=2960b7b4-c377-4bd7-aac9-96f99b62b94c
+][Option 2]]
+
+** DONE [#C] Date w/ YQ
+SCHEDULED: <2025-06-14 Sat>
+** DONE [#C] Universal Studio
+SCHEDULED: <2025-06-15 Sun>
+
+* Work / Study
+
+** INFT3050 Web Programming [1/1]
+*** DONE INFT3050 Scrum 2 Meeting :meeting:
+SCHEDULED: <2025-06-13 Fri>
+- [X] Scrum 2 meeting
+
+** INFT3800 Professional Practice in IT [1/1]
+*** DONE Written Assignment II
+DEADLINE: <2025-06-29 Sun>
+- THIS IS TOTALLY POINTLESS
+
+** COMP3851B Final Year Project [0/0]
+*** TODO Set up a meeting with sponsor
+DEADLINE: <2025-06-29 Sun>
+
+** LOOP [#B] Interview Prepare (Leetcode 150)
+
+** TODO [#A] Viridien Software engineer test :ATTACH:
+DEADLINE: <2025-07-04 Fri>
+:PROPERTIES:
+:ID:       ecef3bb6-e11e-4d81-888d-a61735fd8e64
+:END:
+[[attachment:assignment.c][assignment.c]]
+
+
+
+** LOOP [#B] Advent of code 2025 [6/8] :work:
+DEADLINE: <2025-06-25 Wed>
+- [X] Day 22 P1
+- [X] Day 22 P2
+- [X] Day 23 P1
+- [X] Day 23 P2
+- [X] Day 24 P1
+- [X] Day 24 P2
+- [ ] Day 25 P1
+- [ ] Day 25 P2
+
+** LOOP [#B] [CC] Shell [4/7] :work:
+DEADLINE: <2025-06-30 Mon>
++ [X] "Navigation"
++ [X] "Quoting"
++ [X] "Redirection"
++ [X] "Autocompletion"
++ [ ] "Pipelines"
++ [ ] "History P1"
++ [ ] "History P2"
