@@ -16,37 +16,66 @@ https://www.airbnb.com.sg/rooms/935793566991873802?check_in=2025-06-16&check_out
 
 ** DONE [#C] Date w/ YQ
 SCHEDULED: <2025-06-14 Sat>
+
 ** DONE [#C] Universal Studio
 SCHEDULED: <2025-06-15 Sun>
 
+
+** TODO [#C] Go airport to pick up YQ
+SCHEDULED: <2025-07-26 Sat>
+
 * Work / Study
 
-** INFT3050 Web Programming [1/1]
-*** DONE INFT3050 Scrum 2 Meeting :meeting:
+** School
+*** INFT3050 Web Programming [1/2]
+**** DONE INFT3050 Scrum 2 Meeting :meeting:
 SCHEDULED: <2025-06-13 Fri>
 - [X] Scrum 2 meeting
+**** TODO INFT3050 Scrum 3 Meeting :meeting:
+DEADLINE: <2025-07-18 Fri>
+- [ ] Scrum 3 meeting
 
-** INFT3800 Professional Practice in IT [1/1]
-*** DONE Written Assignment II
+
+*** INFT3800 Professional Practice in IT [1/2]
+**** DONE Written Assignment II
 DEADLINE: <2025-06-29 Sun>
 - THIS IS TOTALLY POINTLESS
+**** TODO Group Research Assignment
+DEADLINE: <2025-07-27 Sun>
+- THIS IS TOTALLY POINTLESS AGAIN!!!!!!!!
+- FUCKING SUSTAINABLE IN BLOCKCHAIN??? GREEN BLOCKCHAIN SOFTWARE???
 
-** COMP3851B Final Year Project [0/0]
-*** TODO Set up a meeting with sponsor
+*** INFT3800 Professional Practice in IT [0/1]
+
+*** COMP3851B Final Year Project [1/1]
+**** DONE Set up a meeting with sponsor
 DEADLINE: <2025-06-29 Sun>
 
-** LOOP [#B] Interview Prepare (Leetcode 150)
+*** INFT3950 Games Design
+**** TODO Final Presentation
+DEADLINE: <2025-07-24 Thu>
 
-** TODO [#A] Viridien Software engineer test :ATTACH:
-DEADLINE: <2025-07-04 Fri>
-:PROPERTIES:
-:ID:       ecef3bb6-e11e-4d81-888d-a61735fd8e64
-:END:
-[[attachment:assignment.c][assignment.c]]
-
+** Job
+*** DONE [#A] Face to face Tech Interview @ Titansoft
+DEADLINE: <2025-07-08 Tue>
 
 
-** LOOP [#B] Advent of code 2025 [6/8] :work:
+*** DONE [#A] Final Interview @ Titansoft
+DEADLINE: <2025-07-14 Mon>
+
+
+*** DONE [#A] Face to face Tech Interview @ Viridien
+DEADLINE: <2025-07-11 Fri>
+- THE MOST STUPID COMPANY EVER!!!!!!!
+
+
+*** TODO [#A] 42 PECINE @ SUTD
+DEADLINE: <2025-08-15 Fri> SCHEDULED: <2025-07-21 Mon>
+- TIME TO SPEED RUN THIS SHIT, AND EAT MORE BAN MIAN !!!
+
+
+** Project
+*** DONE [#B] Advent of code 2015 [8/8] :work:
 DEADLINE: <2025-06-25 Wed>
 - [X] Day 22 P1
 - [X] Day 22 P2
@@ -54,15 +83,35 @@ DEADLINE: <2025-06-25 Wed>
 - [X] Day 23 P2
 - [X] Day 24 P1
 - [X] Day 24 P2
-- [ ] Day 25 P1
-- [ ] Day 25 P2
+- [X] Day 25 P1
+- [X] Day 25 P2
 
-** LOOP [#B] [CC] Shell [4/7] :work:
+
+*** DONE [#B] [CC] Shell [7/7] :work:
 DEADLINE: <2025-06-30 Mon>
 + [X] "Navigation"
 + [X] "Quoting"
 + [X] "Redirection"
 + [X] "Autocompletion"
-+ [ ] "Pipelines"
-+ [ ] "History P1"
-+ [ ] "History P2"
++ [X] "Pipelines"
++ [X] "History P1"
++ [X] "History P2"
+
+
+*** TODO [#B] [CC] Kafka [0/0] :work:
+DEADLINE: <2025-08-10 Sun>
+- MORE TODO LATER !!!!!!!!
+
+
+*** TODO [#B] Advent of code 2016 [9/10] :work:
+DEADLINE: <2025-06-25 Wed>
+- [X] Day 1 P1
+- [X] Day 1 P2
+- [X] Day 2 P1
+- [X] Day 2 P2
+- [X] Day 3 P1
+- [X] Day 3 P2
+- [X] Day 4 P1
+- [X] Day 4 P2
+- [X] Day 5 P1
+- [ ] Day 5 P2
